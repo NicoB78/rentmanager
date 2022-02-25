@@ -40,14 +40,7 @@
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="manufacturer" name="manufacturer" placeholder="Marque" required>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="modele" class="col-sm-2 control-label">Modele</label>
-
-                                    <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="modele" name="modele" placeholder="Modele" required>
-                                    </div>
-                                </div>
+                                </div>                            
                                 <div class="form-group">
                                     <label for="seats" class="col-sm-2 control-label">Nombre de places</label>
 
@@ -55,22 +48,10 @@
                                         <input type="text" class="form-control" id="seats" name="seats" placeholder="Nombre de places" required>
                                     </div>
                                 </div>
-                                <!--
-                                <div class="form-group">
-                                    <label for="owner" class="col-sm-2 control-label">Propriétaire</label>
-
-                                    <div class="col-sm-10">
-                                        <select class="form-control" id="owner" name="owner">
-                                            <option value="1">John Doe</option>
-                                            <option value="2">Jane Doe</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                -->
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="submit" class="btn btn-info pull-right">Ajouter</button>
+                                <button id="addButton" type="submit" class="btn btn-info pull-right">Ajouter</button>
                             </div>
                             <!-- /.box-footer -->
                         </form>
