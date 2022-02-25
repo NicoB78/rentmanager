@@ -15,7 +15,7 @@
         <section class="content-header">
             <h1>
                 Utilisateurs
-                <a class="btn btn-primary" href="${pageContext.request.contextPath}/create">Ajouter</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/createUser">Ajouter</a>
             </h1>
         </section>
 
