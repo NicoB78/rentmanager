@@ -16,6 +16,7 @@
             <h1>
                 Reservations
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/createReservation">Ajouter</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/deleteReservation">Supprimer</a>
             </h1>
         </section>
 
@@ -32,7 +33,6 @@
                                     <th>Client</th>
                                     <th>Debut</th>
                                     <th>Fin</th>
-                                    <th>Action</th>
                                 </tr>
                                 <c:forEach items="${listReservation}" var="reservation">
                                     <tr>
@@ -40,18 +40,7 @@
                                     <td>${reservation.vehicleId}</td>
                                     <td>${reservation.clientId}</td>
                                     <td>${reservation.beginning}</td>
-                                    <td>${reservation.end}</td>
-                                    <td>
-                                        <a class="btn btn-primary enabled" href="car-detail.html">
-                                            <i class="fa fa-play"></i>
-                                        </a>
-                                        <a class="btn btn-success enabled" href="#">
-                                            <i class="fa fa-edit"></i>
-                                        </a>
-                                        <a class="btn btn-danger enabled" href="#">
-                                            <i class="fa fa-trash"></i>
-                                        </a>
-                                    </td>                                    
+                                    <td>${reservation.end}</td>                                    
                                 </tr>
                                 </c:forEach>
                             </table>
