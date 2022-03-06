@@ -15,7 +15,7 @@
         <section class="content-header">
             <h1>
                 Reservations
-                <a class="btn btn-primary" href="${pageContext.request.contextPath}/rents/create">Ajouter</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/createReservation">Ajouter</a>
             </h1>
         </section>
 
