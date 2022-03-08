@@ -17,6 +17,7 @@
                 Reservations
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/createReservation">Ajouter</a>
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/deleteReservation">Supprimer</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/updateReservation">Editer</a>
             </h1>
         </section>
 

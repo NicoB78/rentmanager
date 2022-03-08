@@ -17,6 +17,7 @@
                 Voitures
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/createVehicle">Ajouter</a>
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/deleteVehicle">Supprimer</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/updateVehicle">Editer</a>
             </h1>
         </section>
 

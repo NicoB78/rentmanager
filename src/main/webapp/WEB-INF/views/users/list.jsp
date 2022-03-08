@@ -17,6 +17,7 @@
                 Utilisateurs
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/createUser">Ajouter</a>
                 <a class="btn btn-primary" href="${pageContext.request.contextPath}/deleteUser">Supprimer</a>
+                <a class="btn btn-primary" href="${pageContext.request.contextPath}/updateUser">Editer</a>
             </h1>
         </section>
 
