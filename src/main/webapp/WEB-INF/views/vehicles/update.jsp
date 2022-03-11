@@ -34,6 +34,7 @@
                                                 <option value="${vehicle.id}">${vehicle.id} | ${vehicle.constructor}</option>   
                                             </c:forEach>                                            
                                         </select>
+                                    </br>
                                     </div>
                                     <label for="manufacturer" class="col-sm-2 control-label">Marque</label>
                                     <div class="col-sm-10">

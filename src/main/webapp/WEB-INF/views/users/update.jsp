@@ -34,6 +34,7 @@
                                                 <option value="${user.id}">${user.id} | ${user.firstName} ${user.lastName}</option>   
                                             </c:forEach>                                            
                                         </select>
+                                    </br>
                                     </div>
                                 <div class="form-group">
                                     <label for="lastName" class="col-sm-2 control-label">Nom</label>

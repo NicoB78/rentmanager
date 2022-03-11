@@ -35,7 +35,9 @@
                                                 <option value="${reservation.id}">${reservation.id} | Vehicule : ${reservation.vehicleId} Client : ${reservation.clientId} Debut : ${reservation.beginning} Fin : ${reservation.end}</option>   
                                             </c:forEach>                                            
                                         </select>
+                                    </br>
                                     </div>
+                                
                                     <label for="vehicleId" class="col-sm-2 control-label">Voiture</label>
                                     <div class="col-sm-10">                 
                                         <select class="form-control" id="vehicleId" name="vehicleId"> 
